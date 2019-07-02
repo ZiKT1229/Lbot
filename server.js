@@ -31,6 +31,7 @@ bot.on('message', function (event) {
   getData();
   const msg = event.message.text;
   let replyMsg = '';
+  console.log(msg);
 
   if (weather[msg]) {
     replyMsg = `${msg}:${weather[msg]}`;
