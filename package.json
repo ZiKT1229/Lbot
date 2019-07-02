@@ -1,0 +1,22 @@
+{
+  "name": "Lbot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "10.14.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "linebot": "^1.5.1",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
