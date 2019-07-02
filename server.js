@@ -51,6 +51,6 @@ const linebotParser = bot.parser();
 app.post('/', linebotParser);
 
 const port = process.env.PORT || 3000;
-app.listen('/linewebhook', port, function () {
+app.listen(port, function () {
   console.log('[BOT已準備就緒]');
 });
